@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,7 +23,7 @@
 		BB0868241D9FFF560044A23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB0868261D9FFF560044A23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB0868291D9FFF560044A23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BB08682B1D9FFF560044A23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB08682B1D9FFF560044A23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RealmSample/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		BB08682E1D9FFF560044A23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0868301D9FFF560044A23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A12AE61E30C10700077EFE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
@@ -121,9 +121,12 @@
 		BB0868191D9FFF560044A23B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "永田大祐";
+				ORGANIZATIONNAME = "Toshiyuki Yokoyama";
 				TargetAttributes = {
 					BB0868201D9FFF560044A23B = {
 						CreatedOnToolsVersion = 8.0;
@@ -134,7 +137,7 @@
 				};
 			};
 			buildConfigurationList = BB08681C1D9FFF560044A23B /* Build configuration list for PBXProject "RealmSample" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -349,6 +352,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RealmSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dbank.RealmSampleOrca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +373,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RealmSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dbank.RealmSampleOrca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
