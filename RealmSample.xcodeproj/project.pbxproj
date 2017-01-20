@@ -13,6 +13,7 @@
 		BB08682A1D9FFF560044A23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0868281D9FFF560044A23B /* Main.storyboard */; };
 		BB08682C1D9FFF560044A23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB08682B1D9FFF560044A23B /* Assets.xcassets */; };
 		BB08682F1D9FFF560044A23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB08682D1D9FFF560044A23B /* LaunchScreen.storyboard */; };
+		F5062AEC1E32154700841569 /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F5062AEB1E32154700841569 /* logo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BB08682B1D9FFF560044A23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RealmSample/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		BB08682E1D9FFF560044A23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0868301D9FFF560044A23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5062AEB1E32154700841569 /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
 		F5A12AE61E30C10700077EFE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		F5A12AEA1E30C10B00077EFE /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 		BB0868231D9FFF560044A23B /* RealmSample */ = {
 			isa = PBXGroup;
 			children = (
+				F5062AEB1E32154700841569 /* logo.gif */,
 				BB0868241D9FFF560044A23B /* AppDelegate.swift */,
 				BB0868261D9FFF560044A23B /* ViewController.swift */,
 				BB0868281D9FFF560044A23B /* Main.storyboard */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB08682F1D9FFF560044A23B /* LaunchScreen.storyboard in Resources */,
+				F5062AEC1E32154700841569 /* logo.gif in Resources */,
 				BB08682C1D9FFF560044A23B /* Assets.xcassets in Resources */,
 				BB08682A1D9FFF560044A23B /* Main.storyboard in Resources */,
 			);
